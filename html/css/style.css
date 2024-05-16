@@ -1,0 +1,200 @@
+body {
+    background: url('https://www.makearchitects.com/images/cover-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding-top: 20px; /* Space for the fixed navbar */
+  }
+  .navbar {
+    background-color: rgba(255, 246, 246, 0.502);
+    box-shadow: 0 2 4px #fffbfb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 25px;
+  }
+  .navbar-brand1 img {
+    max-width: 50px;
+  }
+  
+  
+  .navbar .nav-link {
+    color: #007bff; /* Warna teks biru */
+  }
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .content-overlay {
+    position: relative;
+    width: 60%; /* Adjust width to center the overlay */
+    background-color: rgba(245, 245, 245, 0.74);
+    padding: 20px;
+    text-align: center;
+    margin: -100px auto 0; /* Center the overlay horizontally */
+    border-radius: 20px;
+    z-index: 100;
+  }
+  .card {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+  }
+  .card:hover .card-img-top {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    border-radius: 20px;
+  }
+  .card-title {
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  .footer p {
+    font-size: 20px;
+  }
+  /*untuk login*/
+  body {
+    background-color: #c5ebaaab; /* Warna latar belakang */
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #a5dd9b;/* Warna latar konten */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Bayangan */
+  }
+  .login-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    border: 1px solid #ced4da; /* Warna border input */
+  }
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    border-color: #80bdff; /* Warna border input saat fokus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Efek fokus */
+  }
+  .login-form .btn-primary {
+    background-color: #f2c18d; /* Warna latar tombol */
+    border-color: #e45f2bc0; /* Warna border tombol */
+  }
+  .login-form .btn-primary:hover {
+    background-color: #9ac19a; /* Warna latar tombol saat hover */
+    border-color: #0056b3; /* Warna border tombol saat hover */
+  }
+  .card-img-top {
+    height: 250px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Pastikan gambar diisi sepenuhnya ke dalam kotak gambar */
+  }
+  .card {
+    position: relative; /* Tambahkan posisi relatif untuk tombol */
+  }
+  .btn-remove,
+  .btn-checkout {
+    position: absolute; /* Atur posisi absolut untuk tombol */
+    bottom: 10px; /* Sesuaikan dengan kebutuhan */
+    padding: 5px 10px; /* Sesuaikan dengan kebutuhan */
+    font-size: 14px; /* Sesuaikan dengan kebutuhan */
+    border-radius: 5px; /* Sesuaikan dengan kebutuhan */
+  }
+  .btn-remove {
+    left: 10px; /* Atur posisi tombol Hapus ke kiri */
+  }
+  .btn-checkout {
+    right: 10px; /* Atur posisi tombol Checkout ke kanan */
+  }
+  /*kontak info*/
+  .contact-info {
+    background-color: #a5dd9b; /* Warna latar konten */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Bayangan */
+    padding: 40px;
+  }
+  .contact-info h1 {
+    color: #020202; /* Warna teks */
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .contact-info p {
+    color: #020202; /* Warna teks sekunder */
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .contact-info ul {
+    padding-left: 20px;
+  }
+  .contact-info ul li {
+    color: #020202; /* Warna teks sekunder */
+    font-size: 18px;
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .contact-info ul li strong {
+    color: #020202; /* Warna teks */
+    font-weight: bold;
+  }
+  .social-media {
+    margin-top: 30px;
+  }
+  .social-media a {
+    color: #020202; /* Warna teks ikon */
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  .social-media a:hover {
+    color: #72FA93; /* Warna teks ikon saat hover */
+  }
+  .map-section {
+    margin-top: 50px;
+  }
+  .map-section h2 {
+    color: #020202; /* Warna teks */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form-section {
+    margin-top: 50px;
+  }
+  .form-section h2 {
+    color: #020202; /* Warna teks */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    color: #020202; /* Warna teks */
+    font-size: 18px;
+  }
+  .form-control {
+    border-radius: 5px;
+  }
+  .btn-primary {
+    background-color: #f2c18d; /* Warna latar tombol */
+    border-color: #9ac19a; /* Warna border tombol */
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #9ac19a; /* Warna latar tombol saat hover */
+    border-color: #0056b3; /* Warna border tombol saat hover */
+  }
+  
